@@ -1,3 +1,5 @@
+## The Intrepreter.py file contains an executable example unlike intrepreter.py in main branch
+
 ## Turium Programming Language
 
 Turium is a simple programming language inspired by Turing machines. The language consists of a set of instructions that manipulate a tape of symbols, similar to a Turing machine tape. The language has three types of instructions: move, write, and branch.

@@ -51,3 +51,11 @@ class TuringMachineInterpreter:
         next_index = current_index + 1
         return instruction_names[next_index]
 
+program = {
+    "start": "branch 0 increment",
+    "increment": "write 1\nmove right\nbranch 0 increment\nwrite 0\nmove left\nbranch B halt",
+    "halt": ""
+}
+
+interpreter = TuringMachineInterpreter(program)
+interpreter.interpret()
